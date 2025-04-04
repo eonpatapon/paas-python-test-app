@@ -13,7 +13,7 @@
       perSystem = { pkgs, ... }: {
         devShells.default = pkgs.mkShellNoCC {
           name = "python-devshell";
-          buildInputs = [ pkgs.python310 ];
+          buildInputs = [ pkgs.python310 pkgs.uv ];
         };
 
       };
