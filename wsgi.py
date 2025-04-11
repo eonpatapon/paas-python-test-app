@@ -1,4 +1,4 @@
-from .app import app as application
+from app import app as application
 
 __all__ = [
     "application"
