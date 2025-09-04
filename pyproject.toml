@@ -1,8 +1,5 @@
 [project]
 name = "example-app"
 version = "0.1.0"
-description = "A dummy flask app"
+description = "A dummy app"
 readme = "README.md"
-dependencies = [
-  "Flask==3.1.0",
-]
